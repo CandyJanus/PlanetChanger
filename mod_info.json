@@ -1,17 +1,15 @@
 {
-    "id": "yourName_uniqueid",
-    "name": "starsector-gradle-template",
-    "author": "Your Name",
+    "id": "PlanetChanger",
+    "name": "Planet Changer",
+    "author": "E e",
     "utility": "false",
     "version": { "major":"1", "minor": "0", "patch": "0" },
-    "description": "Mod description.",
+    "description": "Mod to change planet conditions. This is a cheat mod for the player who doesn't understand console commands. Can be added mid-save and removed just as easily.",
     "gameVersion": "0.95.1a-RC6",
-    "jars":["jars/starsector-gradle-template.jar"],
+    "jars":["jars/PlanetChanger.jar"],
     "modPlugin":"com.example.ExampleModPlugin",
     "dependencies": [
         {
-            "id": "lw_lazylib",
-            "name": "LazyLib",
             # "version": "2.6" # If a specific version or higher is required, include this line
         }
     ]
